@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Tangerine', cursive;
+}
+
+.big{
+    font-size: 4rem;
+}
+
+
+.container{
+    width: 35vw;
+    position: relative;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+main img{
+    display: block;
+    height: 49.7vw;
+    width: 35vw;
+}
+
+.c-testo{
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top: 18vw;
+    left: 3.5vw;
+    text-align: center;
+}
+.c-testo p{
+    padding-top: 50px;
+    font-size: 2.5rem;
+    line-height: 1.6;
+}
+
+.signature{
+    font-family: 'Satisfy', cursive;
+    width: 40%;
+    height: 10px;
+    position: absolute;
+    bottom: 9vw;
+    left: 8vw;
+    font-size: 1.5rem;
+}
+
+footer div:nth-child(2){
+    width: 20%;
+    height: 10px;
+    position: absolute;
+    bottom: 5.5vw;
+    left: 14.5vw;
+}
+
+footer img{
+    width: 17%;
+    position: absolute;
+    bottom: 5.3vw;
+    right: 5vw;
+}
+
